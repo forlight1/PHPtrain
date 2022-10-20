@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sw statemanets</title>
-</head>
-<body>
+<?php
+$title = 'switch statement';
+ include 'header/header.php'; ?>
     <h1>SW statements</h1>
     <?php
         $grade = 'C';
@@ -25,6 +19,6 @@
 
 
     ?>
-
+<?php require 'header/footer.php';?>
 </body>
 </html>

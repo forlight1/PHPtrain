@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forloop</title>
-</head>
-<body>
+<?php
+$title = 'forloop';
+include 'header/header.php'; ?>
     <?php
         for($count=0; $count < 19; $count++){
             echo '<p>Hello you</p>';
@@ -17,6 +11,6 @@
         }
 
     ?>
-    
+    <?php require 'header/footer.php';?>
 </body>
 </html>
